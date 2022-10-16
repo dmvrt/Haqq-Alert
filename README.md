@@ -47,6 +47,6 @@ upgrade >>>>> no.
 8. Add some rules with chmod u+x $HOME/status/cosmos.sh.
 
 9. Edit crontab with crontab -e.
-# status
+ #status
 1,11,21,31,41,51 * * * * bash $HOME/status/cosmos.sh >> $HOME/status/cosmos.log 2>&1
 Check your logs with cat $HOME/status/cosmos.log or tail $HOME/status/cosmos.log -f.
