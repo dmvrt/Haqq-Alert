@@ -17,7 +17,7 @@ Haqq.conf is in this repository.
 
 6. Install some packages with sudo apt-get install jq sysstat bc smartmontools fdisk -y.
 
-7.Run bash cosmos.sh to check your settings. Normal output:
+7. Run bash cosmos.sh to check your settings. Normal output:
 root@htz-ax41:~/status# bash cosmos.sh
  
 /// 2022-10-16 19:18:24 ///
@@ -25,23 +25,35 @@ root@htz-ax41:~/status# bash cosmos.sh
 haqq-contest  |  load
 
 cpu_used >>>> 3%.
+
 ram_used >>>> 22%.
+
 part_used >>> 17%.
+
 serv_load >>> 0.53.
 
 disk_spare >> nvme0n1 has 100% spare.
+
 disk_used >>> nvme0n1 has 3% used.
+
 disk_spare >> nvme1n1 has 100% spare.
+
 disk_used >>> nvme1n1 has 3% used.
  
 haqq-contest  |  dmvrt
 
 exp/me >>>>>> 526322/526322.
+
 priv_key >>>> right.
+
 place >>>>>>> 83/150.
+
 stake >>>>>>> 11111.11 ISLM.
+
 missed >>>>>> 0 blocks.
+
 gov >>>>>>>>> no unvoted proposals.
+
 upgrade >>>>> no.
 
 8. Add some rules with chmod u+x $HOME/status/cosmos.sh.
