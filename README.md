@@ -18,6 +18,7 @@ Haqq.conf is in this repository.
 6. Install some packages with sudo apt-get install jq sysstat bc smartmontools fdisk -y.
 
 7. Run bash cosmos.sh to check your settings. Normal output:
+
 root@htz-ax41:~/status# bash cosmos.sh
  
 /// 2022-10-16 19:18:24 ///
